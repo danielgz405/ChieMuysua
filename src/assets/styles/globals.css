@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+:root {
+  --background: #151516;
+  --foreground: #e8e2cf;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-night: #151516;
+  --color-night-soft: #202025;
+  --color-astral: #777687;
+  --color-paper: #e8e2cf;
+  --color-paper-deep: #d1c6ad;
+  --color-ink: #3f3a34;
+  --color-sepia: #76624d;
+  --color-brass: #a08b66;
+  --font-display: "Cormorant Garamond", "Iowan Old Style", Baskerville, Georgia,
+    serif;
+  --font-body: var(--font-geist-sans), "Segoe UI", sans-serif;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--color-night);
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), "Segoe UI", sans-serif;
+}
+
+::selection {
+  background: var(--color-brass);
+  color: var(--color-night);
+}
+
+.Toastify__toast {
+  border: 1px solid rgb(119 118 135 / 35%);
+  border-radius: 0;
+  background: var(--color-night-soft);
+  color: var(--color-paper);
+  font-family: var(--font-geist-sans), "Segoe UI", sans-serif;
+}
+
+.Toastify__close-button {
+  color: var(--color-paper);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
