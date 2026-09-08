@@ -1,0 +1,60 @@
+.perspective {
+  perspective: 1200px;
+}
+
+.card {
+  transform-style: preserve-3d;
+  transition: transform 550ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.perspective:hover .card,
+.perspective:focus-within .card {
+  transform: rotateX(2.5deg) rotateY(-3.5deg) translateY(-6px);
+}
+
+.edge {
+  transform: translate3d(9px, 10px, -18px) rotate(1.5deg);
+}
+
+.face {
+  transform-style: preserve-3d;
+}
+
+.artwork {
+  transform: translateZ(18px);
+  transition: transform 550ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.catalogueMeta {
+  transform: translateZ(12px);
+}
+
+.details {
+  transition: color 250ms ease;
+}
+
+.summary::-webkit-details-marker {
+  display: none;
+}
+
+.summaryIcon {
+  transition: transform 250ms ease;
+}
+
+.details[open] .summaryIcon {
+  transform: rotate(180deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card,
+  .artwork,
+  .details,
+  .summaryIcon {
+    transition-duration: 0.01ms;
+  }
+
+  .perspective:hover .card,
+  .perspective:focus-within .card {
+    transform: none;
+  }
+}
