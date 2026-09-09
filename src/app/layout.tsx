@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ChieMuysua",
+  title: "Chie Muysua",
   description:
-    "ChieMuysua, un archivo visual para estudiar el tarot, sus símbolos y sus lecturas.",
+    "Chie Muysua, un archivo visual para estudiar el tarot, sus símbolos y sus lecturas.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

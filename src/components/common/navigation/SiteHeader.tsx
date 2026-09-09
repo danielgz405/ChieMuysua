@@ -8,6 +8,7 @@ import {
 } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import Link from "next/link";
+import { GithubIcon } from "@/components/common/navigation/GithubIcon";
 import { primaryNavigation } from "@/utils/navigation/site-map";
 
 export function SiteHeader() {
@@ -34,10 +35,10 @@ export function SiteHeader() {
               </span>
               <span className="flex flex-col leading-none">
                 <span className="font-mono text-[9px] tracking-[0.24em] text-astral">
-                  ARCHIVO / CHIEMUYSUA
+                  ARCHIVO / CHIE MUYSUA
                 </span>
                 <span className="mt-1 font-display text-xl tracking-wide text-paper">
-                  ChieMuysua
+                  Chie Muysua
                 </span>
               </span>
             </Link>
@@ -58,6 +59,15 @@ export function SiteHeader() {
             </nav>
 
             <div className="flex items-center gap-3">
+              <a
+                href="https://github.com/danielgz405/ChieMuysua"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Chie Muysua en GitHub"
+                className="inline-flex h-10 w-10 items-center justify-center border border-astral/40 text-astral transition-colors hover:border-brass hover:text-brass focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brass"
+              >
+                <GithubIcon className="h-5 w-5" />
+              </a>
               <Link
                 href="/lecturas/online"
                 className="hidden items-center gap-2 border border-brass/70 px-3 py-2 font-mono text-[10px] uppercase tracking-[0.12em] text-brass transition-colors hover:bg-brass hover:text-night focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brass sm:flex"

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { SpreadsLanding } from "@/components/lecturas/tiradas/SpreadsLanding";
 
 export const metadata: Metadata = {
-  title: "Tiradas | ChieMuysua",
+  title: "Tiradas | Chie Muysua",
   description:
     "Consulta el catálogo de tiradas de tarot y encuentra una estructura adecuada para la pregunta que quieres observar.",
 };
