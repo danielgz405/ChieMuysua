@@ -6,6 +6,7 @@ import {
   Bars3Icon,
   XMarkIcon,
 } from "@heroicons/react/24/outline";
+import Image from "next/image";
 import Link from "next/link";
 import { primaryNavigation } from "@/utils/navigation/site-map";
 
@@ -22,15 +23,21 @@ export function SiteHeader() {
               href="/"
               className="group flex shrink-0 items-center gap-3 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brass"
             >
-              <span className="flex h-9 w-9 items-center justify-center border border-astral/60 text-xs font-mono text-astral transition-colors group-hover:border-brass group-hover:text-brass">
-                AT
+              <span className="flex h-10 w-10 items-center justify-center border border-astral/60 bg-night-soft p-1 transition-colors group-hover:border-brass">
+                <Image
+                  src="/icon.svg"
+                  alt=""
+                  width={32}
+                  height={32}
+                  className="h-8 w-8"
+                />
               </span>
               <span className="flex flex-col leading-none">
                 <span className="font-mono text-[9px] tracking-[0.24em] text-astral">
-                  ARCHIVO / 00
+                  ARCHIVO / CHIEMUYSUA
                 </span>
                 <span className="mt-1 font-display text-xl tracking-wide text-paper">
-                  El Atlas del Tarot
+                  ChieMuysua
                 </span>
               </span>
             </Link>

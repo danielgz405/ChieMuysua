@@ -62,22 +62,22 @@ export function ReadingsHero() {
             </p>
             <div className="mt-10 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
               <Link
-                href="#metodos"
+                href="/lecturas/tiradas"
                 className="group inline-flex items-center gap-5 border border-brass bg-brass px-5 py-3 font-mono text-[10px] uppercase tracking-[0.15em] text-night transition-colors hover:bg-transparent hover:text-brass focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brass"
               >
-                Explorar los métodos
-                <ArrowDownIcon
-                  className="h-4 w-4 transition-transform group-hover:translate-y-1"
+                Ver las tiradas
+                <ArrowLongRightIcon
+                  className="h-4 w-4 transition-transform group-hover:translate-x-1"
                   aria-hidden="true"
                 />
               </Link>
               <Link
-                href="/lecturas/online"
+                href="#metodos"
                 className="group inline-flex items-center gap-3 border-b border-astral/50 py-2 font-mono text-[10px] uppercase tracking-[0.15em] text-paper/75 transition-colors hover:border-paper hover:text-paper focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brass"
               >
-                Abrir una lectura
-                <ArrowLongRightIcon
-                  className="h-3.5 w-3.5 transition-transform group-hover:translate-x-1"
+                Conocer el método
+                <ArrowDownIcon
+                  className="h-3.5 w-3.5 transition-transform group-hover:translate-y-1"
                   aria-hidden="true"
                 />
               </Link>

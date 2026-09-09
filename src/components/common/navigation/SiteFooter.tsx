@@ -6,7 +6,7 @@ export function SiteFooter() {
       <div className="mx-auto flex max-w-[1440px] flex-col gap-8 sm:flex-row sm:items-end sm:justify-between">
         <div>
           <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-astral">
-            El Atlas del Tarot / Archivo vivo
+            ChieMuysua / Archivo vivo
           </p>
           <p className="mt-3 max-w-sm font-display text-2xl leading-tight text-paper">
             Una lectura atenta de las imágenes, los símbolos y las preguntas.

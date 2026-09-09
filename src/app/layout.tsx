@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "El Atlas del Tarot",
+  title: "ChieMuysua",
   description:
-    "Un archivo visual para estudiar el tarot, sus símbolos y sus lecturas.",
+    "ChieMuysua, un archivo visual para estudiar el tarot, sus símbolos y sus lecturas.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
