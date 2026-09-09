@@ -62,10 +62,10 @@ export function ReadingsHero() {
             </p>
             <div className="mt-10 flex flex-col items-start gap-4 sm:flex-row sm:items-center">
               <Link
-                href="/lecturas/tiradas"
+                href="/lecturas/online"
                 className="group inline-flex items-center gap-5 border border-brass bg-brass px-5 py-3 font-mono text-[10px] uppercase tracking-[0.15em] text-night transition-colors hover:bg-transparent hover:text-brass focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-brass"
               >
-                Ver las tiradas
+                Ver las lecturas
                 <ArrowLongRightIcon
                   className="h-4 w-4 transition-transform group-hover:translate-x-1"
                   aria-hidden="true"

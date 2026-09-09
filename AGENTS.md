@@ -253,8 +253,6 @@ src/app/
 │   └── arcanos-menores/page.tsx
 ├── lecturas/
 │   ├── page.tsx
-│   ├── tiradas/page.tsx
-│   ├── metodos/page.tsx
 │   ├── interpretacion/page.tsx
 │   ├── online/page.tsx
 │   └── online/

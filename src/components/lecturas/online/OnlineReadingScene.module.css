@@ -5,12 +5,12 @@
 
 .orbit {
   transform-style: preserve-3d;
-  animation: orbit 26s linear infinite;
+  animation: orbit 25s linear infinite;
 }
 
 .orbitReverse {
   animation-direction: reverse;
-  animation-duration: 34s;
+  animation-duration: 33s;
 }
 
 .card {
